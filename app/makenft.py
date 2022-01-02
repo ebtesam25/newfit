@@ -125,7 +125,7 @@ def uploadNFT(filename):
     # payload="<file contents here>"
     payload = open(output_file, "rb")
     headers = {
-    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEY3ZGNFYThEYjk4ZTkyOGU5N2JDOWIxRjlmQWZBNjgzMjEzMDlCRjQiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY0MTExNjg2MzM5MSwibmFtZSI6Im5ld2ZpdCJ9.nIWFwRdxpBXhGaPPWrptXzm8LvGH_bNGULV9CxMgs9U',
+    'Authorization': 'Bearer nowayjose',
     'Content-Type': 'image/png'
     }
 
