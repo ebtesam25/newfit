@@ -7,6 +7,7 @@ import Login from './src/screens/login';
 import Fitbit from './src/screens/fitbit';
 import Github from './src/screens/github';
 import Home from './src/screens/home';
+import Register from './src/screens/register';
 
 
 
@@ -33,6 +34,11 @@ function MyStack() {
       <Stack.Screen 
         name="Login" 
         component={Login} 
+        options={{ headerShown: false}} 
+      />
+      <Stack.Screen 
+        name="Register" 
+        component={Register} 
         options={{ headerShown: false}} 
       />
       
